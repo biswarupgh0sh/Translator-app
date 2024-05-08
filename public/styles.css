@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 25px;
+}
+h1{
+    color: purple;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 300px;
+    min-height: 200px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+select{
+    margin-bottom: 20px; 
+}
+button{
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: green;
+    cursor: pointer;
+}
+.translation{
+    margin: 20px auto;
+    padding: 10px;
+    min-width: 300px;
+    min-height: 200px;
+    max-width: 350px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+.error{
+    margin-top: 15px;
+    color: red;
+}
